@@ -1,0 +1,22 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="764">
+    <Grid>
+        <TextBox Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="359,68,0,0" ></TextBox>
+        <TextBox Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="359,96,0,0" />
+        <TextBox Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="359,122,0,0"/>
+        <TextBox Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="359,150,0,0"/>
+        <TextBox Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="359,177,0,0" ></TextBox>
+        <Label Content="ID: " Width="30" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="314,66,0,0"/>
+        <Label Content="APELLIDO: " Width="66" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="294,92,0,0"></Label>
+        <Label Content="NOMBRE: " Width="61" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="299,120,0,0"/>
+        <Label Content="CORREO: " Width="61" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="298,147,0,0"/>
+        <Label Content="TELEFONO: " Width="68" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="292,175,0,0"/>
+        <Button x:Name="btnAgregar" Content="Agregar" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="309,217,0,0" Click="clickAdd"></Button>
+    </Grid>
+</Window>
