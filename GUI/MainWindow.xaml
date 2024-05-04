@@ -5,26 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="480" Width="764">
-    <Grid>
-        <!-- TextBox -->
-        <TextBox x:Name="txtId" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="115,106,0,0" ></TextBox>
-        <TextBox x:Name="txtApellido" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="115,134,0,0" />
-        <TextBox x:Name="txtNombre" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="115,160,0,0"/>
-        <TextBox x:Name="txtCorreo" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="115,188,0,0"/>
-        <TextBox x:Name="txtTelefono" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="115,215,0,0" ></TextBox>
-
-        <!-- Label -->
-        <Label Content="ID: " Width="30" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="70,104,0,0"/>
-        <Label Content="APELLIDO: " Width="66" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,130,0,0"></Label>
-        <Label Content="NOMBRE: " Width="61" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,158,0,0"/>
-        <Label Content="CORREO: " Width="61" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,185,0,0"/>
-        <Label Content="TELEFONO: " Width="68" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="48,213,0,0"/>
-        <Label Content="LISTA DE CLIENTES" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="500,54,0,0"></Label>
-        <!-- Button -->
-        <Button x:Name="btnAgregar" Content="Agregar" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="246,152,0,0" Click="clickAdd"></Button>
-       
-        <!-- ListBox -->
-        <ListBox x:Name="listClientes" Width="300" Height="200                  " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="405,85,0,0"></ListBox>
+        Title="MainWindow" Height="480" Width="900">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+        <!--#Region_TextBox-->
+            <TextBox x:Name="txtId" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,142,0,0" ></TextBox>
+            <TextBox x:Name="txtApellido" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,170,0,0" />
+            <TextBox x:Name="txtNombre" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,196,0,0"/>
+            <TextBox x:Name="txtCorreo" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,224,0,0"/>
+            <TextBox x:Name="txtTelefono" Width="100" Height="19" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,251,0,0" ></TextBox>
+        <!--#EndRegion-->
+        
+        <!-- #Region_Label -->
+            <Label Content="ID: " Width="30" Height="23" HorizontalAlignment="Left" 
+             VerticalAlignment="Top" Margin="184,140,0,0" Foreground="White"/>
+            <Label Content="APELLIDO: " Width="66" Height="23" HorizontalAlignment="Left" 
+             VerticalAlignment="Top" Margin="162,166,0,0" Foreground="White"/>
+            <Label Content="NOMBRE: " Width="61" Height="23" HorizontalAlignment="Left" 
+             VerticalAlignment="Top" Margin="167,195,0,0" Foreground="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}"/>
+            <Label Content="CORREO: " Width="61" Height="23" HorizontalAlignment="Left" 
+             VerticalAlignment="Top" Margin="166,223,0,0" Foreground="White"/>
+            <Label Content="TELEFONO: " Width="68" Height="26" HorizontalAlignment="Left" 
+             VerticalAlignment="Top" Margin="160,249,0,0" Foreground="White"/>
+            <Label Content="LISTA DE CLIENTES" HorizontalAlignment="Left" 
+             VerticalAlignment="Top" Margin="510,102,0,0" FontWeight="Black" />
+        <!--#EndRegion-->
+        
+        <!--#Region_Button-->
+            <Button x:Name="btnAgregar" Content="Agregar" Width="160" Height="39" HorizontalAlignment="Left" VerticalAlignment="Top" 
+             Margin="167,286,0,0" Click="clickAdd" Background="#FF08FF00" Foreground="White" FontWeight="Bold" FontSize="24"/>
+        <!--#EndRegion-->
+        
+        <!-- #Region_ListBox -->
+            <ListBox x:Name="listClientes" Width="401" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" 
+             Margin="353,128,0,0" d:ItemsSource="{d:SampleData ItemCount=5}" Foreground="White" Background="Blue"></ListBox>
+        <!--#endregion-->
     </Grid>
 </Window>

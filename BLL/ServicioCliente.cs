@@ -23,14 +23,13 @@ namespace BLL
             {
                 if (GetById(cliente.Id)!=null)
                 {
-                    return $"El cliente {cliente.Nombre} con la identifiacion {cliente.Id} ya se encuentra registrado";
+                    return "El cliente ya se encuentra registrado";
                 }
                 clientes.Add(cliente);
-                return $"Datos de cliente {cliente.Nombre} registrados";
+                return "Datos registrados correctamente";
             }
             catch (Exception)
             {
-
                 return "cliente no agregado";
             }
         }
@@ -45,7 +44,7 @@ namespace BLL
             return "votante no eliminado";
         }
 
-        public Cliente GetById(int id)
+        public Cliente GetById(string id)
         {
             foreach (var cliente in clientes)
             {

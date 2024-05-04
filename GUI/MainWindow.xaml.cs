@@ -31,18 +31,22 @@ namespace GUI
         {
             ServicioCliente servicioncliente = new ServicioCliente();
             Cliente cliente = new Cliente();
-            cliente.Id = int.Parse(txtId.Text);
+            cliente.Id = txtId.Text;
             cliente.Apellido = txtApellido.Text;
             cliente.Nombre = txtNombre.Text;
             cliente.Correo = txtCorreo.Text;
             cliente.Telefono = txtTelefono.Text;
 
-            string Agregar = servicioncliente.Add(cliente);
+            if (servicioncliente.Add(cliente) != "El cliente ya se encuentra registrado")
+            {
+                listClientes.Items.Add(cliente);
+                MessageBox.Show("Datos Registrados");
+            }
+            else
+            {
+                MessageBox.Show("Error datos repetidos, entonces no guardados");
+            }
 
-            listClientes.Items.Add(cliente);
-
-            MessageBox.Show("Guardado");
         }
-
     }
 }

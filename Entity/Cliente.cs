@@ -8,7 +8,7 @@ namespace Entity
 {
     public class Cliente
     {
-        public int Id {  get; set; }
+        public string Id {  get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string Telefono {  get; set; }
@@ -16,7 +16,7 @@ namespace Entity
 
         public Cliente() { }
 
-        public Cliente(int id, string nombre, string apellido, string telefono, string correo)
+        public Cliente(string id, string nombre, string apellido, string telefono, string correo)
         {
             Id = id;
             Nombre = nombre;
