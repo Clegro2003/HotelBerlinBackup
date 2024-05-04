@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class ServicioCliente
+    public class ServicioCliente: ICliente
     {
         List<Cliente> clientes;
 
@@ -21,19 +21,28 @@ namespace BLL
         {
             try
             {
-
+                if (GetById(cliente.Id)!=null)
+                {
+                    return $"El cliente {cliente.Nombre} con la identifiacion {cliente.Id} ya se encuentra registrado";
+                }
+                clientes.Add(cliente);
+                return $"Datos de cliente {cliente.Nombre} registrados";
             }
             catch (Exception)
             {
 
-                throw;
+                return "cliente no agregado";
             }
-            return "";
         }
 
         public string Delete(Cliente cliente)
         {
-            return "";
+            if (GetById(cliente.Id)!=null)
+            {
+                clientes.Remove(cliente);
+                return "cliente eliminado";
+            }
+            return "votante no eliminado";
         }
 
         public Cliente GetById(int id)

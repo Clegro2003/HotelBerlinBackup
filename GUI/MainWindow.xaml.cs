@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL;
+using Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +29,20 @@ namespace GUI
 
         private void clickAdd(object sender, RoutedEventArgs e)
         {
-            
+            ServicioCliente servicioncliente = new ServicioCliente();
+            Cliente cliente = new Cliente();
+            cliente.Id = int.Parse(txtId.Text);
+            cliente.Apellido = txtApellido.Text;
+            cliente.Nombre = txtNombre.Text;
+            cliente.Correo = txtCorreo.Text;
+            cliente.Telefono = txtTelefono.Text;
+
+            string Agregar = servicioncliente.Add(cliente);
+
+            listClientes.Items.Add(cliente);
+
+            MessageBox.Show("Guardado");
         }
+
     }
 }

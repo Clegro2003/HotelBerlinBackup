@@ -24,5 +24,10 @@ namespace Entity
             Telefono = telefono;
             Correo = correo;
         }
+
+        public override string ToString()
+        {
+            return $"{Id} - {Apellido} - {Nombre} - {Correo} - {Telefono}";
+        }
     }
 }

@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|c:\\users\\carlo\\downloads\\clases\\p3\\proyecto de aula\\hotelberlin\\bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|solutionrelative:bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF5FCD4A-FE71-4283-9851-92533D9CD3FB}|GUI\\GUI.csproj|c:\\users\\carlo\\downloads\\clases\\p3\\proyecto de aula\\hotelberlin\\gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5FCD4A-FE71-4283-9851-92533D9CD3FB}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44301BDD-A84A-497D-8E23-6EDB0D301E3A}|Entity\\Entity.csproj|C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44301BDD-A84A-497D-8E23-6EDB0D301E3A}|Entity\\Entity.csproj|solutionrelative:entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|c:\\users\\carlo\\downloads\\clases\\p3\\proyecto de aula\\hotelberlin\\bll\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF5FCD4A-FE71-4283-9851-92533D9CD3FB}|GUI\\GUI.csproj|C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF5FCD4A-FE71-4283-9851-92533D9CD3FB}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\bll\\servicioadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|solutionrelative:bll\\servicioadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|solutionrelative:bll\\serviciocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\bll\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|solutionrelative:bll\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\bll\\iadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|solutionrelative:bll\\iadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44301BDD-A84A-497D-8E23-6EDB0D301E3A}|Entity\\Entity.csproj|C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\entity\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44301BDD-A84A-497D-8E23-6EDB0D301E3A}|Entity\\Entity.csproj|solutionrelative:entity\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|c:\\users\\carlo\\downloads\\clases\\p3\\proyecto de aula\\hotelberlin\\bll\\servicioadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|solutionrelative:bll\\servicioadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|c:\\users\\carlo\\downloads\\clases\\p3\\proyecto de aula\\hotelberlin\\bll\\iadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9589C4E0-1A70-4F71-AD07-205D71A0C488}|BLL\\BLL.csproj|solutionrelative:bll\\iadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF5FCD4A-FE71-4283-9851-92533D9CD3FB}|GUI\\GUI.csproj|c:\\users\\carlo\\downloads\\clases\\p3\\proyecto de aula\\hotelberlin\\gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF5FCD4A-FE71-4283-9851-92533D9CD3FB}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF5FCD4A-FE71-4283-9851-92533D9CD3FB}|GUI\\GUI.csproj|C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DF5FCD4A-FE71-4283-9851-92533D9CD3FB}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44301BDD-A84A-497D-8E23-6EDB0D301E3A}|Entity\\Entity.csproj|C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\entity\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,37 +46,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ICliente.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\BLL\\ICliente.cs",
               "RelativeDocumentMoniker": "BLL\\ICliente.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\BLL\\ICliente.cs",
               "RelativeToolTip": "BLL\\ICliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T14:56:54.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T14:56:54.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ServicioCliente.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\BLL\\ServicioCliente.cs",
               "RelativeDocumentMoniker": "BLL\\ServicioCliente.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\BLL\\ServicioCliente.cs",
               "RelativeToolTip": "BLL\\ServicioCliente.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowDAAAAAJAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowBoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T14:56:44.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T14:56:44.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IAdministrador.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\BLL\\IAdministrador.cs",
               "RelativeDocumentMoniker": "BLL\\IAdministrador.cs",
@@ -84,12 +82,11 @@
               "RelativeToolTip": "BLL\\IAdministrador.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T14:50:19.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T14:50:19.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ServicioAdministrador.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\BLL\\ServicioAdministrador.cs",
               "RelativeDocumentMoniker": "BLL\\ServicioAdministrador.cs",
@@ -97,33 +94,31 @@
               "RelativeToolTip": "BLL\\ServicioAdministrador.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T14:49:49.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T14:49:49.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\GUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GUI\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\GUI\\MainWindow.xaml.cs",
               "RelativeToolTip": "GUI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAawB0AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T02:35:33.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\GUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GUI\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\GUI\\MainWindow.xaml",
               "RelativeToolTip": "GUI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-04T00:54:31.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T00:54:31.615Z"
             },
             {
               "$type": "Document",
@@ -133,14 +128,14 @@
               "RelativeDocumentMoniker": "Entity\\Cliente.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\Entity\\Cliente.cs",
               "RelativeToolTip": "Entity\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T00:10:31.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Administrador.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\CLASES\\P3\\PROYECTO DE AULA\\HotelBerlin\\Entity\\Administrador.cs",
               "RelativeDocumentMoniker": "Entity\\Administrador.cs",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "Entity\\Administrador.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T00:10:20.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T00:10:20.846Z"
             },
             {
               "$type": "Document",
