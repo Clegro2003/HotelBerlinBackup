@@ -19,7 +19,7 @@
             <Label Content="ID: " Width="30" Height="23" HorizontalAlignment="Left" 
              VerticalAlignment="Top" Margin="184,140,0,0" Foreground="White"/>
             <Label Content="APELLIDO: " Width="66" Height="23" HorizontalAlignment="Left" 
-             VerticalAlignment="Top" Margin="162,166,0,0" Foreground="White"/>
+             VerticalAlignment="Top" Margin="164,167,0,0" Foreground="White"/>
             <Label Content="NOMBRE: " Width="61" Height="23" HorizontalAlignment="Left" 
              VerticalAlignment="Top" Margin="167,195,0,0" Foreground="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}"/>
             <Label Content="CORREO: " Width="61" Height="23" HorizontalAlignment="Left" 
@@ -35,9 +35,20 @@
              Margin="167,286,0,0" Click="clickAdd" Background="#FF08FF00" Foreground="White" FontWeight="Bold" FontSize="24"/>
         <!--#EndRegion-->
         
-        <!-- #Region_ListBox -->
+        <!-- #Region_ListBox --><!--
             <ListBox x:Name="listClientes" Width="401" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" 
              Margin="353,128,0,0" d:ItemsSource="{d:SampleData ItemCount=5}" Foreground="White" Background="Blue"></ListBox>
-        <!--#endregion-->
+        --><!--#endregion-->
+
+        <DataGrid x:Name="dataGridClientes" AutoGenerateColumns="False" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="353,128,0,0" Height="200" Width="401" Background="DarkGray" Foreground="Black">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="*"/>
+                <DataGridTextColumn Header="Apellido" Binding="{Binding Apellido}" Width="*"/>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="*"/>
+                <DataGridTextColumn Header="Correo" Binding="{Binding Correo}" Width="*"/>
+                <DataGridTextColumn Header="Teléfono" Binding="{Binding Telefono}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
     </Grid>
 </Window>

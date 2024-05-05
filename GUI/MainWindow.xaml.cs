@@ -22,31 +22,45 @@ namespace GUI
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        private ServicioCliente servicioncliente = new ServicioCliente();
         public MainWindow()
         {
             InitializeComponent();
         }
 
+
+
         private void clickAdd(object sender, RoutedEventArgs e)
         {
-            ServicioCliente servicioncliente = new ServicioCliente();
+
             Cliente cliente = new Cliente();
-            cliente.Id = txtId.Text;
-            cliente.Apellido = txtApellido.Text;
-            cliente.Nombre = txtNombre.Text;
-            cliente.Correo = txtCorreo.Text;
-            cliente.Telefono = txtTelefono.Text;
+            {
+                cliente.Id = txtId.Text;
+                cliente.Apellido = txtApellido.Text;
+                cliente.Nombre = txtNombre.Text;
+                cliente.Correo = txtCorreo.Text;
+                cliente.Telefono = txtTelefono.Text;
 
-            if (servicioncliente.Add(cliente) != "El cliente ya se encuentra registrado")
-            {
-                listClientes.Items.Add(cliente);
-                MessageBox.Show("Datos Registrados");
-            }
-            else
-            {
-                MessageBox.Show("Error datos repetidos, entonces no guardados");
             }
 
+            ;
+
+            // Agregar el cliente utilizando el servicio
+            string resultado = servicioncliente.Add(cliente);
+
+            // Mostrar un mensaje dependiendo del resultado de la operación
+            MessageBox.Show(resultado);
+
+            // Si la operación fue exitosa, actualizar el DataGrid
+            if (resultado == "Datos registrados correctamente")
+            {
+                // Obtener la lista actualizada de clientes
+                var clientes = servicioncliente.GetAllClientes();
+
+                // Asignar la lista de clientes al DataGrid
+                dataGridClientes.ItemsSource = clientes;
+            }
         }
     }
 }
